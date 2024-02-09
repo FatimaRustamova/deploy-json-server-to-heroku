@@ -1,28 +1,314 @@
 {
-  "posts": [
-    { "id": 1, "postId": 10, "title": "Hello World", "author": "bob" },
-    { "id": 2, "postId": 22, "title": "Python is D Best", "author": "sarah" },
-    { "id": 3, "postId": 28, "title": "Show me the data", "author": "john" },
-    { "id": 4, "postId": 31, "title": "Hello Friend!", "author": "anna" },
-    { "id": 5, "postId": 58, "title": "Do something", "author": "hana" }
+  "users": [
+    {
+      "id": 1,
+      "username": "Huseynagha",
+      "password": "12345",
+      "email": "huseynaga@mail.com"
+    },
+    {
+      "id": 2,
+      "username": "Fatime",
+      "password": "121212",
+      "email": "fatime@mail.com"
+    },
+    {
+      "username": "barat",
+      "email": "barat@mail.com",
+      "password": "1212",
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "index": 12, "body": "some comment 1" },
-    { "id": 2, "index": 3, "body": "some comment 2" },
-    { "id": 3, "index": 23, "body": "some comment 3" },
-    { "id": 4, "index": 43, "body": "some comment 4" },
-    { "id": 5, "index": 56, "body": "some comment 5" },
-    { "id": 6, "index": 10, "body": "some comment 6" },
-    { "id": 7, "index": 34, "body": "some comment 7" },
-    { "id": 8, "index": 43, "body": "some comment 8" },
-    { "id": 9, "index": 56, "body": "some comment 9" },
-    { "id": 10, "index": 80, "body": "some comment 10" }
-  ],
-  "profiles": [
-    { "id": 1, "index": 45, "firstName": "Bob", "lastName": "Rogers" },
-    { "id": 2, "index": 38, "firstName": "Marco", "lastName": "Gallardi" },
-    { "id": 3, "index": 56, "firstName": "John", "lastName": "Rose" },
-    { "id": 4, "index": 3, "firstName": "Sarah", "lastName": "Tomasz" },
-    { "id": 5, "index": 23, "firstName": "Anna", "lastName": "Kowalowski" }
+  "notes": [
+    {
+      "createDate": "2/7/2024, 9:47:03 PM",
+      "lastModified": "2/7/2024, 9:47:10 PM",
+      "text": "21 fevral 2004\n\n",
+      "content": {
+        "ops": [
+          {
+            "insert": "21 fevral 2004\n\n"
+          }
+        ]
+      },
+      "isPinned": false,
+      "html": "<p>21 fevral 2004</p><p><br></p>",
+      "isDeleted": false,
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "createDate": "2/7/2024, 9:48:04 PM",
+      "lastModified": "2/9/2024, 12:52:29 AM",
+      "text": "Presentation: When the notes are finished, I usually ask several students to read theirs aloud, or sometimes, I read them to the class. Occasionally we do something that needs to be collected and sent out quickly, so we don’t read them aloud.\n \nMost of the notes we write are delivered to specific recipients. For example, we mail our notes to the Marines to my Marine son-in-law for distribution. The notes to the Church Staff are hand-delivered, and the Pen Pal notes are delivered in the classroom to our “resident” pen pal, my aide.\n \nSamples of notes from my students are given on the following pages. Each student wrote a complete note, including date and heading, on a separate sheet of stationery. For brevity of presentation in this lesson plan, all notes on the same topic are given in a list format under a single date and heading.\n",
+      "content": {
+        "ops": [
+          {
+            "attributes": {
+              "bold": true
+            },
+            "insert": "Presentation: "
+          },
+          {
+            "insert": "When the notes are finished, I usually ask several students to read theirs aloud, or sometimes, I read them to the class. Occasionally we do something that needs to be collected and sent out quickly, so we don’t read them aloud.\n \nMost of the notes we write are delivered to specific recipients. For example, we mail our notes to the Marines to my Marine son-in-law for distribution. The notes to the Church Staff are hand-delivered, and the Pen Pal notes are delivered in the classroom to our “resident” pen pal, my aide.\n \nSamples of notes from my students are given on the following pages. Each student wrote a complete note, including date and heading, on a separate sheet of stationery. For brevity of presentation in this lesson plan, all notes on the same topic are given in a list format under a single date and heading."
+          },
+          {
+            "attributes": {
+              "header": 2
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "isPinned": false,
+      "html": "<p><strong>Presentation:&nbsp;</strong>When the notes are finished, I usually ask several students to read theirs aloud, or sometimes, I read them to the class.&nbsp;Occasionally we do something that needs to be collected and sent out quickly, so we don’t read them aloud.</p><p>&nbsp;</p><p>Most of the notes we write are delivered to specific recipients.&nbsp;For example, we mail our notes to the Marines to my Marine son-in-law for distribution.&nbsp;The notes to the Church Staff are hand-delivered, and the Pen Pal notes are delivered in the classroom to our “resident” pen pal, my aide.</p><p>&nbsp;</p><h2>Samples of notes from my students are given on the following pages.&nbsp;Each student wrote a complete note, including date and heading, on a separate sheet of stationery.&nbsp;For brevity of presentation in this lesson plan, all notes on the same topic are given in a list format under a single date and heading.</h2>",
+      "isDeleted": false,
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "createDate": "2/7/2024, 11:25:34 PM",
+      "lastModified": "2/8/2024, 7:53:24 PM",
+      "text": "Introductory “Lecture”: I begin by giving the class a simple orientation to note writing similar in content to the following paragraph:\n\n\t\tNote writing is a common form of social communication. \n\t\tAlthough society today is leaning toward e-mail, it is still important to learn the skill of note writing. \n\t\tNotes can be used to express a concern, to communicate gratitude, to extend an invitation, or to ask a question. \n\t\tNotes can also be a way to show someone you are thinking about them.\n",
+      "content": {
+        "ops": [
+          {
+            "attributes": {
+              "bold": true
+            },
+            "insert": "Introductory “Lecture”:"
+          },
+          {
+            "insert": " I begin by giving the class a simple orientation to note writing similar in content to the following paragraph:\n\n\t\t"
+          },
+          {
+            "attributes": {
+              "italic": true
+            },
+            "insert": "Note writing is a common form of social communication. "
+          },
+          {
+            "insert": "\n\t\t"
+          },
+          {
+            "attributes": {
+              "italic": true
+            },
+            "insert": "Although society today is leaning toward e-mail, it is still important to learn the skill of note writing. "
+          },
+          {
+            "insert": "\n\t\t"
+          },
+          {
+            "attributes": {
+              "italic": true
+            },
+            "insert": "Notes can be used to express a concern, to communicate gratitude, to extend an invitation, or to ask a question. "
+          },
+          {
+            "insert": "\n\t\t"
+          },
+          {
+            "attributes": {
+              "italic": true
+            },
+            "insert": "Notes can also be a way to show someone you are thinking about them."
+          },
+          {
+            "insert": "\n"
+          }
+        ]
+      },
+      "isPinned": true,
+      "html": "<p><strong>Introductory “Lecture”:</strong>&nbsp;I begin by giving the class a simple orientation to note writing similar in content to the following paragraph:</p><p><br></p><p>\t\t<em>Note writing is a common form of social communication.&nbsp;</em></p><p>\t\t<em>Although society today is leaning toward e-mail, it is still important to learn the skill of note writing.&nbsp;</em></p><p>\t\t<em>Notes can be used to express a concern, to communicate gratitude, to extend an invitation, or to ask a question.&nbsp;</em></p><p>\t\t<em>Notes can also be a way to show someone you are thinking about them.</em></p>",
+      "isDeleted": false,
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "createDate": "2/7/2024, 11:26:02 PM",
+      "lastModified": "2/9/2024, 1:32:20 AM",
+      "text": "Modeling: I involve the class in drafting a sample note that I write on the board. I include most of the following points, adjusting for the type of note we are doing:\n\n·      Structure of a note (date, heading, body, closing, signature)\n·      Kind of note (I explain the kind of note we are writing. The list in the section above gives the different types of notes that my class typically writes over the course of a semester.)\n·      Capitalization\n·      Punctuation (commas, periods, question marks)\n·      Vocabulary\n·      Synonyms (for example thankful, grateful)\n·      Ideas to include in your letter\n·      Forming questions - word order (I cover this and the next point when we do pen pal letters.)\n·      Answering questions\n",
+      "content": {
+        "ops": [
+          {
+            "attributes": {
+              "bold": true
+            },
+            "insert": "Modeling:"
+          },
+          {
+            "insert": " I involve the class in drafting a sample note that I write on the board. I include most of the following points, adjusting for the type of note we are doing:\n\n·      Structure of a note (date, heading, body, closing, signature)"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Kind of note (I explain the kind of note we are writing. The list in the section above gives the different types of notes that my class typically writes over the course of a semester.)"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Capitalization"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Punctuation (commas, periods, question marks)"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Vocabulary"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Synonyms (for example thankful, grateful)"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Ideas to include in your letter"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Forming questions - word order (I cover this and the next point when we do pen pal letters.)"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "·      Answering questions"
+          },
+          {
+            "attributes": {
+              "indent": 1
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "isPinned": true,
+      "html": "<p><strong>Modeling:</strong>&nbsp;I involve the class in drafting a sample note that I write on the board.&nbsp;I include most of the following points, adjusting for the type of note we are doing:</p><p><br></p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Structure of a note (date, heading, body, closing, signature)</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kind of note (I explain the kind of note we are writing.&nbsp;The list in the section above gives the different types of notes that my class typically writes over the course of a semester.)</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capitalization</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Punctuation (commas, periods, question marks)</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vocabulary</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Synonyms (for example thankful, grateful)</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ideas to include in your letter</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forming questions - word order (I cover this and the next point when we do pen pal letters.)</p><p class=\"ql-indent-1\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Answering questions</p>",
+      "isDeleted": false,
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "createDate": "2/8/2024, 1:30:54 AM",
+      "lastModified": "2/9/2024, 4:57:05 PM",
+      "text": "Objectives:  s Students will write (in English) a suitable note for the situation described to them.\n s Students will use correct form for their note.\n s Students will acquire key vocabulary pertinent to note writing: for example, pen pal.\nLevel:                  My class is Mixed (intermediate and advanced)\nTime:                   I cover the initial instruction on writing notes as a part of the work we do in class over the course of two weeks. Then we continue to practice throughout the semester using a variety of note-writing scenarios.\n",
+      "content": {
+        "ops": [
+          {
+            "attributes": {
+              "bold": true
+            },
+            "insert": "Objectives:  "
+          },
+          {
+            "insert": "s Students will write (in English) a suitable note for the situation described to them.\n s Students will use correct form for their note.\n s Students will acquire key vocabulary pertinent to note writing: for example, "
+          },
+          {
+            "attributes": {
+              "italic": true
+            },
+            "insert": "pen pal"
+          },
+          {
+            "insert": ".\n"
+          },
+          {
+            "attributes": {
+              "bold": true
+            },
+            "insert": "Level:                  "
+          },
+          {
+            "insert": "My class is Mixed (intermediate and advanced)\n"
+          },
+          {
+            "attributes": {
+              "bold": true
+            },
+            "insert": "Time:"
+          },
+          {
+            "insert": "                   I cover the initial instruction on writing notes as a part of the work we do in class over the course of two weeks. Then we continue to practice throughout the semester using a variety of note-writing scenarios."
+          },
+          {
+            "attributes": {
+              "header": 2
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "isPinned": false,
+      "html": "<p><strong>Objectives:  </strong>s Students will write (in English) a suitable note for the situation described to them.</p><p> s Students will use correct form for their note.</p><p> s Students will acquire key vocabulary pertinent to note writing:&nbsp;for example, <em>pen pal</em>.</p><p><strong>Level:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>My class is Mixed (intermediate and advanced)</p><h2><strong>Time:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I cover the initial instruction on writing notes as a part of the work we do in class over the course of two weeks.&nbsp;Then we continue to practice throughout the semester using a variety of note-writing scenarios.</h2>",
+      "isDeleted": false,
+      "userId": 2,
+      "id": 13
+    },
+    {
+      "createDate": "2/10/2024, 1:10:04 AM",
+      "lastModified": "2/10/2024, 1:13:17 AM",
+      "text": "bscjhavchgacvhdagc\n",
+      "content": {
+        "ops": [
+          {
+            "insert": "bscjhavchgacvhdagc\n"
+          }
+        ]
+      },
+      "isPinned": false,
+      "html": "<p>bscjhavchgacvhdagc</p>",
+      "isDeleted": false,
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "createDate": "2/10/2024, 1:13:12 AM",
+      "lastModified": "2/10/2024, 1:13:12 AM",
+      "text": "",
+      "content": "",
+      "isPinned": false,
+      "html": "",
+      "isDeleted": true,
+      "userId": 2,
+      "id": 15
+    }
   ]
 }
