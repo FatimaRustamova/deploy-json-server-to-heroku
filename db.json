@@ -11,12 +11,6 @@
       "username": "Fatime",
       "password": "121212",
       "email": "fatime@mail.com"
-    },
-    {
-      "username": "barat",
-      "email": "barat@mail.com",
-      "password": "1212",
-      "id": 3
     }
   ],
   "notes": [
@@ -309,6 +303,48 @@
       "isDeleted": true,
       "userId": 2,
       "id": 15
+    }
+  ],
+  "sticky": [
+    {
+      "text": "Decide on the Best Strategy\n\nTaking effective notes in college well requires a strategy. The two best ways to take notes in college are on paper with pencil or pens, or digital, and we’ll talk more in depth about both strategies in later points.",
+      "date": "2/15/2024, 9:51:08 PM",
+      "color": "#9ACD32",
+      "isPinned": true,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "text": "Keep Your Notes Short\n\nIt’s better to keep your notes to a short summary, focusing on what seems to be the most important. You also don’t need to write down stuff you already know. Focus on the information that’s new.,bkj",
+      "date": "2/15/2024, 10:28:29 PM",
+      "color": "#f08080",
+      "isPinned": true,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "text": "Write Neatly\n\nIf you choose to handwrite your notes, make sure you can read what you’re writing. Write as neatly as you can so that you don’t have to spend a bunch of time decoding yourself later.",
+      "date": "2/12/2024, 9:33:42 PM",
+      "color": "#9370DB",
+      "isPinned": false,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "text": "Minimize Distractions\n\nWe live in an information-saturated age, and we all love to think we can multitask like a pro. There’s just one problem with this theory: We can’t. Both psychology and neuroscience have clearly shown that multitasking is a myth.",
+      "date": "2/14/2024, 12:15:55 AM",
+      "color": "#DAA520",
+      "isPinned": false,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "text": "Think While You Write\n\nWe mentioned above how mindlessly typing every word you hear doesn’t tend to be very helpful. The same is true even if you’re writing by hand. Make sure you keep your brain engaged and think while you write.",
+      "date": "2/12/2024, 9:35:18 PM",
+      "color": "#20b2aa",
+      "isPinned": true,
+      "userId": 2,
+      "id": 5
     }
   ]
 }
